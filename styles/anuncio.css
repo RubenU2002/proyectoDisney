@@ -1,0 +1,9 @@
+.anuncio{
+    display: flex;
+    height: 126px;
+    width: 100vw;
+    justify-content: center;
+}
+.anuncio__contenedor{
+    padding-top: 20px;
+}

@@ -75,6 +75,7 @@ nav{
     display: none;
 }
 .head__desplegable{
+    background:rgb(255, 255, 255);
     position: absolute;
     height: 614px;
     width: 100%;
@@ -91,10 +92,14 @@ nav{
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .head__desplegable ul li a{
+    color: #000;
     height: 100%;
     width: 100%;
     padding-top: 25px;
     padding-left: 50px;
     background-position: left 14px center;
     text-align: left;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: 600;
 }

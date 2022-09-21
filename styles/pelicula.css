@@ -1,0 +1,68 @@
+.pelicula{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pelicula__cartel{
+    max-height: auto;
+    width: 100vw;
+}
+.pelicula__cartel img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.pelicula__ver__descripcion{
+    color: #fff;
+}
+.pelicula__ver{
+    padding: 20px 25px 30px 25px;
+    width: 100%;
+    height: 47.7vh;
+    background: #000;
+}
+.pelicula__ver__imagen{
+    height: 58.88%;
+    width: 100%;
+}
+.pelicula__ver__imagen img{
+    height: 100%;
+    width: 100%;
+}
+.pelicula__ver__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 95%;
+    width: 100%;
+}
+.pelicula__ver__descripcion{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.pelicula__ver__descripcion h1{
+    font-size: 1rem;
+}
+.pelicula__ver__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pelicula__ver__btn{
+    display: flex;
+    line-height: 16px;
+    border-radius: 24px;
+    min-width: 240px;
+    height: 48px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.pelicula__botones__container{
+    margin-bottom: 10px;
+}
+.pelicula__ver__btn__txt{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
