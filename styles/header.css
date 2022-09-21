@@ -9,7 +9,7 @@ a{
 }
 .head__container{
     display: grid;
-    grid-template-columns: 56px 2fr 0.55fr;
+    grid-template-columns: 56px 2fr 56px;
     grid-template-rows: 65px ;
     justify-items: center;
     align-content: center;
@@ -77,9 +77,13 @@ nav{
 .head__desplegable{
     background:rgb(255, 255, 255);
     position: absolute;
-    height: 614px;
+    height: minmax(614px,content);
     width: 100%;
 }
+.head__sub__desplegable{
+    height: 100%;
+}
+
 .head__desplegable ul li {
     display: flex;
     color: #303030;
@@ -90,6 +94,20 @@ nav{
     height: 61px;
     border-top: 1px solid rgba(255,255,255,0.05);
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.sub_desplegable{
+    height: fit-content;
+}
+.sub_desplegable ul li{  
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 52.39px;
+    width: 100%;
+    font-size: 14px;
+    color: #252525;
+    font-weight: 100;
 }
 .head__desplegable ul li a{
     color: #000;

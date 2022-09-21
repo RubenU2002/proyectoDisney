@@ -10,4 +10,13 @@ head__button.addEventListener('click',(e)=>{
     head__button.classList.toggle("borde");
     linea1.classList.toggle("head_click");
     linea2.classList.toggle("head_click2");
-})
+});
+
+const lista = document.querySelector("#desplegable");
+
+lista.addEventListener('click',(e)=>{
+    if (e.target.parentNode.id == "disney+"){
+        e.preventDefault(); 
+        e.target.parentNode.nextSibling.nextSibling.classList.toggle("desaparecer");
+    }
+});
