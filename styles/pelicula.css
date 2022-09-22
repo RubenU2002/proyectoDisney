@@ -58,8 +58,18 @@
     justify-content: center;
     align-items: center;
 }
+.pelicula__ver__btn:hover{
+    background-color: #fefefec9;
+}
 .pelicula__botones__container{
     margin-bottom: 10px;
+}
+.pelicula__ver__btn a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pelicula__ver__btn__txt{
     text-decoration: none;
