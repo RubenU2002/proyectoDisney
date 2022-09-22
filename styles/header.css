@@ -76,14 +76,18 @@ nav{
 }
 .head__desplegable{
     background:rgb(255, 255, 255);
-    position: absolute;
+
     height: minmax(614px,content);
     width: 100%;
+}
+.prueba{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
 }
 .head__sub__desplegable{
     height: 100%;
 }
-
 .head__desplegable ul li {
     display: flex;
     color: #303030;
